@@ -1357,3 +1357,18 @@ body.outlook p {
         background: #f3f3f3 !important;
       }
     </style>
+
+    <table class="button large shopbutton">
+                                      <tr>
+                                        <td>
+                                          <table>
+                                            <tr>
+                                              <td> 
+                                                <center data-parsed=""><a href="https://www.meundies.com/t/women/undies-and-bralettes/no-show-lace" align="center" class="float-center shopbuttontext">SHOP NOW</a></center>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+                                        <td class="expander"></td>
+                                      </tr>
+                                    </table>

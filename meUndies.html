@@ -1365,8 +1365,31 @@ body.outlook p {
         background: #f3f3f3 !important;
       }
     span.preheader { display: none !important; }
-    span.promocode { text-decoration: underline; font-weight: bold;}
+    span.promocode { color:#130B0B; text-decoration: underline; font-weight: bold;}
     span.maintitle { color: #F7ECE7; font-weight: bold; font-size: 45px;}
+    span.bodytext { color:#190F0F;  }
+    .shopbutton {   background-color: #000000; 
+                    border: none;
+                    color: white;
+                    padding: 15px 32px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: block;
+                    font-size: 16px;
+}
+a.shopbuttontext:link, 
+a.shopbuttontext:visited, 
+a.shopbuttontext:hover,
+a.shopbuttontext:active {
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+
+   /* .shopbuttontext { font-size: 16px;} */
 
     </style> 
     
@@ -1411,21 +1434,13 @@ body.outlook p {
                                     </tbody>
                                   </table>
                                   <p class="text-center"> <span class= "maintitle">No Show &amp; Lace Are Back</span> </p>
-                                  <p class="text-center">For the next 48 hours, get 40% off all No Show & Lace in Undies and Bralettes. Just use the code <span class= "promocode">NOSHOW40</span> at checkout.</p>
-                                    <table class="button large expand">
-                                      <tr>
-                                        <td>
-                                          <table>
-                                            <tr>
-                                              <td>
-                                                <center data-parsed=""><a href="https://www.meundies.com/t/women/undies-and-bralettes/no-show-lace" align="center" class="float-center">SHOP NOW</a></center>
-                                              </td>
-                                            </tr>
-                                          </table>
-                                        </td>
-                                        <td class="expander"></td>
-                                      </tr>
-                                    </table>
+                                  <p class="text-center"> <span class= "bodytext">For the next 48 hours, get 40% off all No Show & Lace in Undies and Bralettes. Just use the code </span> 
+                                    <span class= "promocode">NOSHOW40</span> <span class="bodytext"> at checkout. </span> </p> 
+                                   <br>
+                                   <div class="shopbutton"> 
+                                    <center data-parsed=""><a href="https://www.meundies.com/t/women/undies-and-bralettes/no-show-lace" align="center" class="shopbuttontext">SHOP NOW</a></center>
+                                  </div>
+                                  
                                   <table class="row">
                                     <tbody>
                                       <tr>
